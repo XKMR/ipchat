@@ -32,7 +32,7 @@ if webhookcheck == True:
     print("Webhook is correct format! Connecting...")
     question = "y"
     sleep(1.25)
-    finalmessage = f"{usrnmin} has connected!\n\nGitHub project: `https://github.com/53z/ipchat`\nCreated By `DomIsOffline#4762`  -  `https://github.com/53z`\nUpgraded to `V1.2` by `darkHares#0001`  -  `https://github.com/XKMR`"
+    finalmessage = f"{usrnmin} has connected!\n\nGitHub project: `https://github.com/XKMR/ipchat`\nCreated By `DomIsOffline#4762`  -  `https://github.com/53z`\nUpgraded to `V1.2` by `darkHares#0001`  -  `https://github.com/XKMR`"
     webhook = DiscordWebhook(url=webhook_url, content=finalmessage)
     response = webhook.execute()
     sleep(1.25)
